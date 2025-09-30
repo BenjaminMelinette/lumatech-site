@@ -2,7 +2,7 @@
   "name": "LumaTech",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://benjaminmelinette.github.io/lumatech-site",
+  "homepage": "https://benjaminmelinette.github.io/lumatech-site/",
   "type": "module",
   "scripts": {
     "dev": "vite",
