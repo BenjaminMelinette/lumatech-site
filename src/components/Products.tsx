@@ -126,10 +126,6 @@ export default function Products() {
                 
                 {/* Icon & Title */}
                 <div className={product.featured ? 'lg:flex-1' : ''}>
-                  <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-orange-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                    <product.icon size={40} className="text-white" />
-                  </div>
-
                   <h3 className="text-2xl font-bold text-gray-900 mb-3">
                     {product.name}
                   </h3>

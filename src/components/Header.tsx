@@ -1,5 +1,6 @@
 import { useState, type MouseEvent } from 'react';
 import { Menu, X } from 'lucide-react';
+import logo from "../assets/logo.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,9 +29,7 @@ export default function Header() {
           
           {/* Logo */}
           <a href="#hero" className="flex items-center space-x-3 group" onClick={(e) => scrollToSection(e, '#hero')}>
-            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center transform transition-transform group-hover:scale-105">
-              <span className="text-white font-bold text-xl">L</span>
-            </div>
+            <img src={logo} alt="LumaTech Logo" className="h-10 w-10 object-contain" />
             <span className="text-2xl font-bold text-gray-900">
               Luma<span className="text-orange-600">Tech</span>
             </span>
