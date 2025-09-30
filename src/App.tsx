@@ -4,6 +4,7 @@ import About from './components/About';
 import Products from './components/Products';
 import Process from './components/Process';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Process />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }
